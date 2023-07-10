@@ -1,0 +1,51 @@
+body{
+    background-color: aliceblue;
+    margin: 25%;
+    margin-top: 0%;
+    padding: 0%;
+    text-align: center;
+    width: 50%;
+    background-image: url(./images/img-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    min-height: 100%;
+    opacity: .8;
+}
+#box-1{
+    background-color: aliceblue;
+    margin-top: 105%;
+    padding: 50px;
+}
+#name{
+    font-family: Arial, Helvetica, sans-serif;
+    color: burlywood;
+    font-size: 40px;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+#details{
+    font-weight:lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#email, a{
+    text-decoration: none;
+    color: green;
+}
+.headings{
+    font-weight:lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 40px;
+    color: green;
+}
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    body{
+        margin: 0%;
+        width: 100%;
+        background-size: 150%;
+    }
+    #box-1{
+        margin-top: 220%;
+    }
+}
